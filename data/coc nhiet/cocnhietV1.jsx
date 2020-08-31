@@ -299,7 +299,7 @@ function moveTem(item, type, FileName) {
     app.activeDocument.artLayers.getByName("amount").translate(PRectangleTem[2] + ((app.activeDocument.width - PRectangleTem[2] - PAmount[2] + PAmount[0]) / 2), ((app.activeDocument.height / 2) - PAmount[3] + PAmount[1]) / 2);
 }
 function CreateCocNhiet1(arr, lastName, stt, i, FileDesign) {
-    var H_item = 1063;
+    var H_item = 1028;
     var W_item = 2480;
 
     var newSize = 100;
